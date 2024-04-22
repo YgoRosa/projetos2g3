@@ -12,7 +12,7 @@ class Cafe(models.Model):
     whatsapp = models.CharField(max_length=15, default='5500000000000')  # Inclua código do país e DDD
 
     def __str__(self):
-        return self.nome
+        return self.nome #teste
 
 class Cliente(models.Model):
     nome = models.CharField(max_length=100)
